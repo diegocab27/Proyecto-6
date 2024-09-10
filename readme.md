@@ -69,32 +69,33 @@ La aplicacion se desplego en https://render.com y se puede revisar a travez del 
 
 - 1.Creacion de usuarios
   
-![image](https://github.com/user-attachments/assets/c5b587f0-0d2b-4c5d-961f-c2904172c2d0)
+  ![image](https://github.com/user-attachments/assets/c5b587f0-0d2b-4c5d-961f-c2904172c2d0)
 
-![image](https://github.com/user-attachments/assets/38a8a463-2042-4f48-a5f8-1530bf530f4d)
+  ![image](https://github.com/user-attachments/assets/38a8a463-2042-4f48-a5f8-1530bf530f4d)
 
 
 - 2.Inicio de sesion
 
-![image](https://github.com/user-attachments/assets/b3130874-f131-470f-ac4c-e9b9f9e4625a)
+  ![image](https://github.com/user-attachments/assets/b3130874-f131-470f-ac4c-e9b9f9e4625a)
 
 - 3.verificacion de token
-- 
-![image](https://github.com/user-attachments/assets/8abd3db5-2815-457a-b663-90bdaad380e5)
+  
+  ![image](https://github.com/user-attachments/assets/8abd3db5-2815-457a-b663-90bdaad380e5)
 
 - 4.Actualizacion de usuario
 
-![image](https://github.com/user-attachments/assets/7d8f1122-6a4a-4db1-810f-ccb1b57aab94)
+  ![image](https://github.com/user-attachments/assets/7d8f1122-6a4a-4db1-810f-ccb1b57aab94)
 
-![image](https://github.com/user-attachments/assets/d4155589-ea4a-45f5-b332-bb83a92bd521)
+  ![image](https://github.com/user-attachments/assets/d4155589-ea4a-45f5-b332-bb83a92bd521)
 
 - 5.Creacion de producto
-- 
-![image](https://github.com/user-attachments/assets/6fe1759f-5700-4165-9d62-fc626e38f48c)
+  
+  ![image](https://github.com/user-attachments/assets/6fe1759f-5700-4165-9d62-fc626e38f48c)
 
-![image](https://github.com/user-attachments/assets/6aa227ae-f62f-4487-8661-8b0b707925a4)
+  ![image](https://github.com/user-attachments/assets/6aa227ae-f62f-4487-8661-8b0b707925a4)
 
 - 6.Mostrar todos los productos
+  
   ![image](https://github.com/user-attachments/assets/d84c8984-bf3c-48cf-a489-63bad858d923)
 
 - 7.Mostrar un producto
