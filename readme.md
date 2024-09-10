@@ -67,7 +67,11 @@ La aplicacion se desplego en https://render.com y se puede revisar a travez del 
 
 ## Verificacion de funcionamiento:
 
-- 1.Creacion de usuarios 
+- 1.Creacion de usuarios
+![image](https://github.com/user-attachments/assets/c5b587f0-0d2b-4c5d-961f-c2904172c2d0)
+
+![image](https://github.com/user-attachments/assets/38a8a463-2042-4f48-a5f8-1530bf530f4d)
+
 
 - 2.Inicio de sesion
 
