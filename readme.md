@@ -10,27 +10,53 @@ En este proyecto, el objetivo será construir una aplicación backend que admini
 
 ## Planteamiento
 
-El objetivo de este proyecto es desarrollar una aplicación Fullstack de comercio electrónico que incluya todos los elementos esenciales para gestionar un negocio en línea. Algunos de los elementos clave que deberás tener en cuenta son:
+Construir una aplicación backend que maneje la autenticación y autorización de usuarios. La aplicación incluira un modelo de usuario y un modelo de Producto.
 
-Un catálogo de productos que permita a los usuarios explorar los artículos disponibles.
-Un carrito de compras para que los usuarios puedan seleccionar y gestionar sus compras.
-Una pasarela de pago segura (específicamente Stripe, PayPal o MercadoPago, en versión de pruebas) que facilite las transacciones en línea.
-Autenticación de usuarios, incluido el registro de cuentas y el inicio de sesión, mediante JSON Web Tokens (JWT).
-Autorización, mediante la creación de áreas privadas en las que los usuarios puedan acceder y gestionar su perfil e información personal.
+## Instalacion 
+
+Para instalar y ejecutar el proyecto en desarrollo realizamos los siguientes comandos
+
+```
+  npm install 
+  npm run dev
+```
+
+## Despliegue
+
+La aplicacion se desplego en https://render.com y se puede revisar a travez del siguiente enlace
+
+- https://proyecto-6-s41a.onrender.com
 
 
 ## Puntos a destacar
 
 - Uso de  `Node.js` y `Express` para el desarrollo del servidor.
-- Uso de `MongoDB` 
-- Uso de `React`
+- Uso de `MongoDB` a través de `mongoose` para el desarrollo de los modelos 
+- Implementacion de los siguientes endpoints:
 
+## Endpoints para Usuario:
 
-## Implementacion de la solucion backend:
+| Descripción                                    | Método | Endpoint                            
+| ---------------------------------------------- | ------ | --------------------------
+| Registrar un usuario | POST    | /api/user/register                  |
+| Iniciar sesión de usuario| POST   |  	/api/user/login                 |
+| Verificar el token del usuario   | GET | /api/user/verifytoken                    |
+| Actualizar información del usuario      | PUT   | /api/user/update |
 
-- 1.Creacion de modelos user , product y cart
+## Endpoints para Producto:
 
-- 2.Creacion controladores para los usuarios los productos el carrito y la pasarela de pago
+| Descripción                                    | Método | Endpoint                            
+| ---------------------------------------------- | ------ | --------------------------
+| Crear un producto | POST    | 	/api/product/create                 |
+| Leer todos los productos| GET  |  		/api/product/readall                |
+| Actualizar un producto  | PUT | /api/product/update/:id                  |
+| Eliminar un producto     | DELETE  | 	/api/product/delete/:id|
+
+## Implementacion de la solucion:
+
+- 1.Creacion de modelos user y product con mongoose
+
+- 2.Creacion controladores para los usuarios con encriptacion JWT y controlador de productos con modelo CRUD.
 
 - 3.Creacion Midleware para la autorizacion de acceso
 
@@ -38,16 +64,21 @@ Autorización, mediante la creación de áreas privadas en las que los usuarios 
 
 - 5.Creacion de archivo principal index.js 
 
-## Implementacion de la solucion frontend:
 
-- 1.Configuracion del archivo App
-  
-- 2.Creacion de las difrentes paginas a ocupar y los diferentes solicitudes al backend
+## Verificacion de funcionamiento:
 
+- 1.Creacion de usuarios 
 
+- 2.Inicio de sesion
 
+- 3.verificacion de token
 
-- 9.Eliminar un producto
+- 4.Actualizacion de usuario
 
-  ![image](https://github.com/user-attachments/assets/8677613e-2eb5-4587-9c4a-53792d8c0941)
+- 5.Cracion de producto
 
+- 6.Mostrar todos los productos
+
+- 7.Actualizar producto
+
+- 8.Eliminar producto
